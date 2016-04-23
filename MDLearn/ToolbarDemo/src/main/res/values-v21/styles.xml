@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources >
+    <style name="AppTheme" parent="Theme.AppCompat.NoActionBar">
+
+        <!--使布局延伸到状态栏-->
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+
+        <item name="android:statusBarColor">@color/colorPrimaryDark</item>
+        <!--若在styles中不设置任何颜色，则全部使用默认颜色-->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+    </style>
+</resources>
